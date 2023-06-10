@@ -1,0 +1,39 @@
+{
+  "name": "ue5-kalidokit-client",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.4",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "@mediapipe/camera_utils": "^0.3.1675466862",
+    "@mediapipe/drawing_utils": "^0.3.1675466124",
+    "@mediapipe/face_mesh": "^0.4.1633559619",
+    "browserify-zlib": "^0.2.0",
+    "express": "^4.18.2",
+    "kalidokit": "^1.1.5",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "ws": "^8.13.0"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lelelove1225/ue5-mediapipeface-plugin.git"
+  },
+  "author": "m.ikurumi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lelelove1225/ue5-mediapipeface-plugin/issues"
+  },
+  "homepage": "https://github.com/lelelove1225/ue5-mediapipeface-plugin#readme",
+  "description": ""
+}
